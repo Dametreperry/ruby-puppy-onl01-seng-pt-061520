@@ -7,3 +7,4 @@ class Dog
     PUPPIES << self 
   end
   
+end
