@@ -1,8 +1,9 @@
 class Dog 
   
-  puppies = []
+  PUPPIES = []
   
   def initialize(name)
     @name = name 
-    @name << self 
+    PUPPIES << self 
   end
+  
